@@ -1,5 +1,6 @@
 import React from 'react';
-import offer from '../images/women-cus.jpg';
+import offer from '../../images/women-cus.jpg';
+import './women_cosmetic.scss'
 
 const Womencosmetics = () => {
     return (

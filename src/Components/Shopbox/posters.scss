@@ -1,5 +1,13 @@
-@import "../abstracts/variables";
+@import '../../Styles/style.scss';
 
+.container
+{
+    @include container;
+}
+.img
+{
+    @include img;
+}
 .boxs
 {
     // display: flex;

@@ -1,8 +1,8 @@
 import React from 'react';
-import shoe from "../images/sheo.jpg";
-import mouse from "../images/mouse.jpg";
-import women from "../images/frocks.jpg";
-
+import shoe from "../../images/sheo.jpg";
+import mouse from "../../images/mouse.jpg";
+import women from "../../images/frocks.jpg";
+import "./posters.scss";
 
 const Shopbox = () => {
     return (

@@ -1,6 +1,7 @@
 import React from 'react';
-import banner from '../images/background.jpg';
-import Aside from './aside';
+import banner from '../../images/background.jpg';
+import Aside from '../Aside/Aside';
+import "./banner.scss";
 
 const Banner = (props) => {
 

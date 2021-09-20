@@ -1,4 +1,26 @@
-@import "../abstracts/variables";
+@import '../../Styles/style.scss';
+
+.container
+{
+    @include container;
+}
+    .row{
+        @include row;
+        .col-3
+        {
+            @include col-3;
+            @media only screen and (max-width: 576px){  width: 55%; }
+        }
+        .col-9
+        {
+            @include col-9;
+        }
+    }
+    .img
+    {
+        @include img;
+    }
+
 
 .sub-menus{
     box-shadow: $shadow;
@@ -135,10 +157,7 @@
         display: block;
         transition: all 500ms;
 	}
-   .col-9
-   {
-       width: 100%;
-   }
+  
    .banner
    
    {
@@ -148,8 +167,12 @@
 
 @media only screen and (max-width: 576px)
 {
-    .drop{
-        width: 45%;
+    .row{
+     .col-3
+        {
+           
+            @media only screen and (max-width: 576px){  width: 45%; }
+        }
     }
     .banner
     {

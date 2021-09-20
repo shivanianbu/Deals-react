@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
-import logo from '../images/logo.jpg';
-import search from '../images/search.png';
-import Cart from "./cart";
+import React, { useState , useEffect} from 'react';
+import logo from '../../images/logo.jpg';
+import search from '../../images/search.png';
+import Cart from "../Cart/Cart";
+import '../Cart/cart.scss';
+import './header.scss';
+import { connect } from "react-redux";
 
-const Header = (props) => {
+const Header = ( {cart}) => {
 
-    const { cart, onAdd, onRemove, remove,isDrop,setIsDrop } = props;
+    const { isDrop,setIsDrop } = useState(false);
 
     const [isShow, setIsShow] = useState(false);
     const [isCart, setIsCart] = useState(false);
@@ -14,7 +17,7 @@ const Header = (props) => {
 
         <header>
             <div className="container">
-                <div className="row header-content">
+                <div className="header-row header-content">
                     <div className="col-3">
                         <a href="#" className="logo"><img src={logo} alt="logo" /></a>
                     </div>
@@ -40,9 +43,13 @@ const Header = (props) => {
                                 <div className="icon"><i className="icon-account"></i><i className="icon-dropdown"></i></div>
                                 <div className="name">Account</div>
                             </a></li>
-                            <li><a href="#" className="cart-btn" onClick={() => setIsCart(!isCart)}>
+                            <li><a className="cart-btn"
+                             onClick={() => setIsCart(!isCart)}
+                             >
                                 <div className="icon"><i className="icon-cart" ></i>
-                                    <div className="cart-count">{cart.length}</div></div>
+                                    <div className="cart-count">
+                                    {cart.length}
+                                   </div></div>
                                 <div className="name">My Cart</div>
 
 
@@ -58,7 +65,7 @@ const Header = (props) => {
                 </div>
 
                 <div className="navigation">
-                    <div className="row">
+                    <div className="header-row">
                         <div className="col-3">
                             <div className="side-nav">
                                 <h6 className="side">Shop by Categories <i className="icon-dropdown"  onClick={() => setIsDrop(!isDrop)}></i></h6>
@@ -84,7 +91,7 @@ const Header = (props) => {
 
                 <div className={isCart ? "cart-products show" : "cart-products"}>
                     <span className="close-cart" onClick={() => setIsCart(!isCart)}>X</span>
-                    <Cart cart={cart} onAdd={onAdd} onRemove={onRemove} remove={remove} />
+                    <Cart />
                 </div>
             </div>
 
@@ -94,6 +101,11 @@ const Header = (props) => {
     );
 }
 
-
-
-export default Header;
+const mapStateToProps = (state) => {
+    return {
+      cart: state.shop.cart,
+    };
+  };
+  
+  export default connect(mapStateToProps)(Header);
+  

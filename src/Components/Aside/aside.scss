@@ -1,0 +1,30 @@
+@import '../../Styles/style.scss';
+
+
+.sub-menus{
+    box-shadow: $shadow;
+    background: $header;
+&-menu
+{
+   
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #F0EBEB;
+    justify-content: space-between;
+    color: $color-text;
+    align-items: center;
+}
+&-menu:hover{
+    background: $background;
+    cursor: pointer;
+}
+.icon-dropleft
+{
+    
+    background: url('../../images/arrow-rightaa.jpg') no-repeat;
+    padding: 5px;
+    background-size:cover;
+    display: inline-block;
+    height: 5px;                        
+}
+}

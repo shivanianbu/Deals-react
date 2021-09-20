@@ -1,3 +1,26 @@
+@import '../../Styles/style.scss';
+.container
+{
+    @include container;
+}
+.header-row
+{
+    @include row;
+    flex-wrap: nowrap;
+   
+    .col-2{
+        @include col-2;
+    }
+    .col-3{
+        @include col-3;
+    }
+    .col-6{
+        @include col-6;
+    }
+    .col-7 {
+        @include col-7;
+    }
+}
 header {
     background: $header;
     width: 100%;
@@ -243,19 +266,8 @@ a{
    
 
 	}
-   .col-2
-   {
-       width: 16.66%;
 
-   }
-   .col-6
-   {
-       width: 58%;
-       
-   }
-   .col-7{
-    width: 75%;
-   }
+ 
     .navigation
 {
 .sub-navs
@@ -271,8 +283,7 @@ a{
       
         padding: 0 20px;
       
-    }
-    
+    } 
 }
 } 
 
@@ -282,11 +293,7 @@ a{
 
 @media only screen and (max-width: 992px)
 {
-    
-        .col-7{
-            width: 75%;
-           }
-           .navigation
+    .navigation
     {
         .sub-navs
         {
@@ -305,17 +312,7 @@ a{
 
 @media only screen and (max-width: 768px)
 {
-  .col-3
-    {
-     width: 33.33%;
-   
-    }
-    .col-7{
-        width: 66.66%;
-    }  
-       .col-6{
-        width: 50%;
-    }
+      
     .navigation
     {
         
@@ -353,10 +350,7 @@ a{
 @media only screen and (max-width: 576px)
 
 {
-    .col-3
-    {
-        width: 45%;
-    }
+   
     header
 	{
         .header-content
@@ -372,14 +366,7 @@ a{
 
 		width: 75%;
     }
-    // .navigation
-    // {
-    // .sub-navs{
-	
-    //     top:38%;
-    // }
-
-
+  
    
 
  .navigation

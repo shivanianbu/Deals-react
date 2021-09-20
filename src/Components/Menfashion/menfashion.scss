@@ -1,0 +1,39 @@
+@import "../../Styles/style.scss";
+
+.container
+{
+    @include container;
+    .offer-content
+{
+    @include offer-content;
+}
+
+}
+.category-nav
+{
+    display: flex;
+    justify-content: space-between;
+    .men-nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        list-style-type: none;
+        display: block;
+        padding: 0 10px;
+    }
+    .men-menus
+    {
+        color: $black;
+    }
+}
+
+.cards
+{
+    @include cards;
+    &-box
+    {
+        margin: 15px;
+    }
+}

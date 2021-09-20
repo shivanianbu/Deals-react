@@ -1,8 +1,13 @@
-@import "../abstracts/variables";
-@import "../abstracts/mixins";
+@import '../../Styles/style.scss';
+
+
+.container
+{
+    @include container;
+}
 .offer-content
 {
-    @include margin;
+    @include offer-content;
 	
     .left-content {
         bottom: 20px;
@@ -14,12 +19,13 @@
     }
 }
 
-
+.img{
+    @include img;
+}
 @media only screen and (max-width: 992px)
 {
     .offer-content
 {
-    @include margin;
 	
     .left-content {
         bottom: 15px;

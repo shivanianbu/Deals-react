@@ -1,13 +1,24 @@
-@import "../abstracts/variables";
-@import "../abstracts/mixins";
+@import '../../Styles/style.scss';
 
+.container
+{
+    @include container;
+    .offer-content
+{
+    @include offer-content;
+}
+}
+.row
+{
+    @include row;   
+}
+.img
+{
+    @include img;
+}
 .cards {
 
-    background: $header;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
-   width:100%;
-
+    @include cards;
     .card {
         padding: 5px;
         margin: 5px;

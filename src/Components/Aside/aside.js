@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./aside.scss";
 const Aside = (props) => {
     const {isDrop, setIsDrop} = props;
     return (
