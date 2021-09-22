@@ -1,0 +1,251 @@
+@import "../../Styles/style.scss";
+
+ul{
+  list-style: none;
+}
+.footer{
+  .container
+  {
+    @include container;
+  }
+
+background: $footer;
+.footer-top
+{
+  .column
+  {
+    width: 20%;
+  }
+  ul.links li
+{
+
+line-height: 20px;
+padding: 5px 0;
+
+}
+.links li a
+{
+	color: $footer-text;
+	font-size: 14px;
+}
+}
+
+.footer-headings
+{
+    font-size: 19px;
+    font-weight: bold;
+    color: $header;
+}
+.heading-space
+{
+  margin: 15px 0;
+}
+.footer-content
+{
+  padding: 30px 0px;
+}
+}
+.footer-middle
+{
+  .col-2
+  {
+    @include col-2;
+  }
+  p {
+    color:$footer-text ;
+  }
+  .payment-cards
+  {
+      display: flex;
+     justify-content: flex-start;
+     flex-wrap: nowrap;
+     flex-direction: row;
+      .pay{
+        margin: 5px;
+        cursor: pointer;	
+      }
+  }
+  .icon-paypal
+{
+background: url('../../images/paypal.jpg') no-repeat;
+width: 50px;
+height: 30px;
+background-size:cover;
+display: inline-block;	
+}
+.icon-visa
+{
+background: url('../../images/visa.jpg') no-repeat;
+width: 50px;
+height: 30px;
+background-size:cover;
+display: inline-block;	
+}
+.icon-american
+{
+background: url('../../images/american.jpg') no-repeat;
+width: 50px;
+height: 30px;
+background-size:cover;
+display: inline-block;	
+}
+.icon-mastercard
+{
+background: url('../../images/mastercard.jpg') no-repeat;
+width: 50px;
+height: 30px;
+background-size:cover;
+display: inline-block;	
+}
+.social{
+  padding-left: 15px;
+ 
+.soc-media
+{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: nowrap;
+   flex-direction: row;
+    .soc-icon{
+      padding: 10px 12px 0px;
+      cursor: pointer;	
+      width: 40px;
+      height: 40px;
+      border: 1px solid $header;
+      border-radius: 50%;
+      justify-content: space-between;
+
+    }
+  }
+
+.icon-facebook
+{
+background: url('../../images/facebook.png') no-repeat;
+width: 30px;
+height: 30px;
+display: inline-block;	
+}
+.icon-twitter
+{
+background: url('../../images/twitter.png') no-repeat;
+width: 30px;
+height: 30px;
+
+display: inline-block;	
+}
+.icon-google-plus
+{
+background: url('../../images/google-plus-logo.png') no-repeat;
+width: 30px;
+height: 30px;
+
+display: inline-block;	
+}
+.icon-pinterest
+{
+background: url('../../images/pinterest.png') no-repeat;
+width: 30px;
+height: 30px;
+display: inline-block;	
+}
+.icon-linkedin
+{
+background: url('../../images/linkedin.png') no-repeat;
+width: 30px;
+height: 30px;
+display: inline-block;	
+}
+}
+.col-4
+{
+  @include col-4;
+}
+.col-1
+{
+  @include col-1;
+  text-align: center;
+}
+.trustpay
+{
+ 
+  padding-left: 80px;
+  .logo 
+  {
+      display: flex;
+      // justify-content: center;
+     
+  img
+  {
+    width: 40px;
+    height: 50px;
+
+  }
+  .trust-logo
+  {
+    color:$header;
+    font-size:30px;
+    font-weight: bold;
+    margin-top:0px;
+    line-height:50px;
+    padding-left:5px;
+  }
+}
+span {
+color: $footer-text;
+}
+}
+}
+.footer-bottom 
+{
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid $color-text;
+    span{
+        color: $color-text;
+        font-size: 14px;
+      
+    } 
+   
+}
+
+
+
+@media only screen and (max-width: 1200px)
+{
+.footer-middle .col-2 {
+    width: 25%;
+}
+}
+@media only screen and (max-width: 992px)
+{
+.footer-middle
+{ .col-2 ,.col-4,.col-1{
+    width: 50%;
+}
+
+.trustpay
+{
+ 
+  padding-left: 0px;
+}
+}
+.soc-media
+{
+  width: 250px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 576px)
+{
+.footer-middle
+{ .col-2,.col-4,.col-1 {
+    width: 100%;
+}
+.col-1{
+  text-align: end;
+}
+}
+}

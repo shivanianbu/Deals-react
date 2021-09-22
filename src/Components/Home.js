@@ -5,14 +5,17 @@ import Women from './WomenCosmetics/Womencosmetics';
 import Trendings from './Trendings/Trendings';
 import Shopbox from './Shopbox/Shopbox';
 import MenFashion from './Menfashion/Menfashion';
+import Footer from './Footer/Footer';
 import { connect,useDispatch,} from "react-redux";
   
   import { setItem } from "../redux/Action/cartAction";
   import { PRODUCT_PATH } from '../utils/env';
   import axios from "axios";
 
+
 const Home = ({products }) => {
 
+  const bannerContent = {title: 'iPhone 6 Plus',description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam consequat justo',button: 'Explore Now'};
     const dispatch = useDispatch();
     const fetchProducts = async () => {
       const response = await axios
@@ -32,11 +35,12 @@ const Home = ({products }) => {
     return (
         <>
          <Header  isDrop={isDrop} setIsDrop={setIsDrop}/>
-    <Banner isDrop={isDrop} setIsDrop={setIsDrop}/>
+    <Banner isDrop={isDrop} setIsDrop={setIsDrop} bannerContent={bannerContent} />
     <Women />
-         <Trendings products={products}  />
+    <Trendings products={products}  />
     <Shopbox /> 
     <MenFashion />
+    <Footer />
         </>
     
     )

@@ -5,7 +5,6 @@ import Product from "./Product";
 
 
 const Trendings = ({products}) => {
-  
 
   return (
     <section className="trending">
@@ -17,7 +16,7 @@ const Trendings = ({products}) => {
           <div className="cards">
         {
         
-          products.filter(product => product.category === "trend").map((product) =>
+          products.filter(product => product.trending === "trend").map((product) =>
           
           <Product key={product.id} product={product} />
          ) }

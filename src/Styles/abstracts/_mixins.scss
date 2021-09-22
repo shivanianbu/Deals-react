@@ -21,13 +21,17 @@
  height: 100%;
 
 }
+@mixin col-1
+{
+  width: 16.67%
+}
 @mixin col-7
 {
   width: 58.33%; text-align: center;
   @media only screen and (max-width: 1200px){width: 75%;}
   @media only screen and (max-width: 768px)  {width: 66.66%;}
 }
-
+@mixin col-4 {width: 33.33%;  height: 100%;}
 @mixin col-2
 {
   width: 25%;
@@ -44,6 +48,7 @@
   @media only screen and (max-width: 1200px){ width: 58%;}
 
 }
+
 @mixin  col-9 {width: 75%;height:auto;
   @media only screen and (max-width: 768px){width: 100%;}
 
@@ -69,6 +74,7 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
 width:100%;
 }
+
 @mixin button
  {
   background-color: $orange;

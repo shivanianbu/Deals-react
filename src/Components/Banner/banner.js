@@ -5,7 +5,7 @@ import "./banner.scss";
 
 const Banner = (props) => {
 
-const {isDrop, setIsDrop} = props;
+const {isDrop, setIsDrop,bannerContent} = props;
     return (
         <section>
             <div className="container">
@@ -18,9 +18,9 @@ const {isDrop, setIsDrop} = props;
                             <img src={banner} alt="banner" className="img" />
                             <div className="content">
                                 <div className="content-body">
-                                    <h1>iPhone 6 Plus</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam consequat justo</p>
-                                    <a className="button">Expore Now</a>
+                                    <h1>{bannerContent.title}</h1>
+                                    <p>{bannerContent.description}</p>
+                                    <a className="button">{bannerContent.button}</a>
                                 </div>
                             </div>
                             <div className="bottom-navs">
