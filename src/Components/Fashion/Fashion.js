@@ -7,17 +7,18 @@ import { connect,useDispatch,} from "react-redux";
 
 
 const Fashion = (props) => {
-     const { fashion } = props;
-
-//      const getUnique = (arr, comp) =>{
-//           const unique =  arr.map(e => e[comp])
-//         .map((e, i, final) => final.indexOf(e) === i && i)
-//        .filter((e) => arr[e]).map(e => arr[e]);
+  const { fashion ,products} = props;
   
-//   return unique;
-//   };
+  const category =  products.filter(product => product.category === fashion.title);
+     const getUnique = (arr, comp) =>{
+          const unique =  arr.map(e => e[comp])
+        .map((e, i, final) => final.indexOf(e) === i && i)
+       .filter((e) => arr[e]).map(e => arr[e]);
   
-//      const category =  getUnique(products, 'category');
+  return unique;
+  };
+    
+     const type =  getUnique(category, 'type');
 
     return (
        <div className="container">
@@ -28,8 +29,6 @@ const Fashion = (props) => {
           </div>
           <div className="offer-content">
          <ul className="men-nav">
-         {/* { category.map((product) => console.log(product.category)
-            ) } */}
             <li><Link className="men-menus">{fashion.link[0]}</Link></li>
             <li> <Link className="men-menus">{fashion.link[1]}</Link></li>
             <li> <Link className="men-menus">{fashion.link[2]}</Link></li>
@@ -42,14 +41,11 @@ const Fashion = (props) => {
            <div className="cardss-box">
               <h6 className="top-head">Top Categories</h6>
               <div className="top-category">
-              <Link className="category" to="#" >Shirts</Link>
-              <Link className="category" to="#" >T-Shirts &amp; Polos</Link>
-              <Link className="category" to="#" >Jeans</Link>
-              <Link className="category" to="#" >Trousers &amp; Chinos</Link>
-              <Link className="category" to="#" >Suits &amp; Blazers</Link>
-              <Link className="category" to="#" >Jackets</Link>
-              <Link className="category" to="#" >Sweatshirts</Link>
-              <Link className="category" to="#" >Kurta &amp; Sherwants</Link>
+              { type.map((product) => 
+         
+              <Link className="category" to="#" >{product.type}</Link>
+              ) }
+              <Link className="category view" to="#" >View All&gt;&gt;</Link>
               </div>
            </div>    
            <div className="cardss-box">

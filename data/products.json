@@ -7,7 +7,8 @@
         "price": 1200,
         "image": "images/camera1.jpg",
         "trending": "trend",
-        "category" : "Camera"
+        "category" : "Camera",
+        "type": "samsung"
       },
       {
         "id": "2",
@@ -60,7 +61,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Camera"
+        "category" : "Camera",
+        "type": "samsung"
       },
       {
         "id": "8",
@@ -68,7 +70,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Camera"
+        "category" : "Camera",
+        "type": "samsung"
       },
       {
         "id": "9",
@@ -76,7 +79,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Laptop"
+        "category" : "Laptop",
+        "type": "samsung"
       },
       {
         "id": "10",
@@ -84,7 +88,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Laptop"
+        "category" : "Laptop",
+        "type": "samsung"
       },
       {
         "id": "11",
@@ -92,7 +97,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Mobile"
+        "category" : "Mobile",
+        "type": "samsung"
       },
       {
         "id": "12",
@@ -100,7 +106,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Mobile"
+        "category" : "Mobile",
+        "type": "samsung"
       },
       {
         "id": "13",
@@ -108,7 +115,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Tablet"
+        "category" : "Tablet",
+        "type": "samsung"
       },
       {
         "id": "14",
@@ -116,7 +124,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Tablet"
+        "category" : "Tablet",
+        "type": "samsung"
       },
       {
         "id": "15",
@@ -124,7 +133,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive"
+        "category" : "Pendrive",
+        "type": "samsung"
       },
       {
         "id": "16",
@@ -132,7 +142,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive"
+        "category" : "Pendrive",
+        "type": "samsung"
       },
       {
         "id": "17",
@@ -140,7 +151,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive"
+        "category" : "Pendrive",
+        "type": "samsung"
       },
       {
         "id": "18",
@@ -148,7 +160,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "groceries"
+        "category" : "groceries",
+        "type": "samsung"
       },
       {
         "id": "19",
@@ -156,7 +169,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "groceries"
+        "category" : "groceries",
+        "type": "samsung"
       },
       {
         "id": "20",
@@ -164,7 +178,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Furnitures"
+        "category" : "Furnitures",
+        "type": "samsung"
       },
       {
         "id": "21",
@@ -172,7 +187,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Furnitures"
+        "category" : "Furnitures",
+        "type": "samsung"
       },
       {
         "id": "22",
@@ -180,7 +196,7 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Flower and Gifts"
+        "category" : "Mobile"
       },
       {
         "id": "23",
@@ -188,7 +204,7 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Flower and Gifts"
+        "category" : "Laptop"
       },
       {
         "id": "24",
@@ -212,7 +228,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Computer"
+        "category" : "Computer",
+        "type" : "Trousers & Chinos"
       },
       {
         "id": "27",
@@ -220,7 +237,8 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Computer"
+        "category" : "Computer",
+        "type" : "Trousers & Chinos"
       },
       {
         "id": "28",
@@ -228,7 +246,197 @@
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Computer"
+        "category" : "Men's Fashion",
+        "type" : "Trousers & Chinos"
+      },
+      {
+        "id": "29",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Suits & Blazers"
+      },
+      {
+        "id": "30",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Suits & Blazers"
+      },
+      {
+        "id": "31",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Jackets"
+      },
+      {
+        "id": "32",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Jackets"
+      },
+      {
+        "id": "33",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Sweatshirts"
+      },
+      {
+        "id": "34",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Sweatshirts"
+      },
+      {
+        "id": "35",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Kurta & Sherwanis"
+      },
+      {
+        "id": "36",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Jeans"
+      },
+      {
+        "id": "37",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Jeans"
+      },
+      {
+        "id": "38",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "T-Shirts & Polos"
+      },
+      {
+        "id": "39",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "T-Shirts & Polos"
+      },
+      {
+        "id": "40",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Shirts"
+      },
+      {
+        "id": "41",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Men's Fashion",
+        "type" : "Shirts"
+      },
+      {
+        "id": "42",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Top Wear"
+      },
+      {
+        "id": "43",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Bottom Wear"
+      },
+      {
+        "id": "44",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Dresses"
+      },
+      {
+        "id": "45",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Lingerie & Sleepwear"
+      },
+      {
+        "id": "46",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Sportswear"
+      },
+      {
+        "id": "47",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "SweatShirts"
+      },
+      {
+        "id": "48",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Jeans"
+      },
+      {
+        "id": "48",
+        "title": "",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Women's Fashion",
+        "type" : "Kurtis"
       }
     ]
     

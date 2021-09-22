@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch data/products.json --port 9000",
+    "dev": "concurrently \"npm start\" \"npm run json-server\""
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +54,9 @@
   "bugs": {
     "url": "https://github.com/shivanianbu/Deals-react/issues"
   },
-  "homepage": "https://github.com/"
+  "homepage": "https://github.com/",
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "json-server": "^0.16.3"
+  }
 }

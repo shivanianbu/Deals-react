@@ -6,9 +6,9 @@ import '../Cart/cart.scss';
 import './header.scss';
 import { connect } from "react-redux";
 
-const Header = ( {cart}) => {
+const Header = ( props) => {
 
-    const { isDrop,setIsDrop } = useState(false);
+    const { cart,isDrop,setIsDrop } = props;
 
     const [isShow, setIsShow] = useState(false);
     const [isCart, setIsCart] = useState(false);
