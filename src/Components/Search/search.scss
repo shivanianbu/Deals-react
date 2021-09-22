@@ -1,0 +1,64 @@
+@import "../../Styles/style.scss";
+
+.search-section{
+    background: #ff6d00;
+    .container
+    {
+        @include container;
+    }
+    .heading-space
+{
+  padding: 40px 0;
+}
+}
+.column-4
+    {
+        width: 40%;
+     
+    }
+    .signup-head
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 0;
+        h6{
+            color: $header;
+           
+           }
+    }
+.column-6
+    {
+        width: 60%;
+        color: $header;
+    }
+
+    .search {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        justify-content: flex-start;
+        
+      
+      .search-bar {
+       
+        width: 460px;
+        height: 46px;
+        border: 2px solid $header;
+        background: #ff6d00;
+      }
+      ::placeholder {
+        color:$header;
+      }
+    
+      .search-btn{
+        width: auto;
+        height: 46px;
+        background: $header;
+        border: none;
+        color: #ff6d00;
+        font-weight: bold;
+        padding: 10px;
+      }
+    
+    }    

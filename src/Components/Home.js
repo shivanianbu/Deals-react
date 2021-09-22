@@ -5,6 +5,7 @@ import Women from './WomenCosmetics/Womencosmetics';
 import Trendings from './Trendings/Trendings';
 import Shopbox from './Shopbox/Shopbox';
 import MenFashion from './Menfashion/Menfashion';
+import Search from './Search/Search';
 import Footer from './Footer/Footer';
 import { connect,useDispatch,} from "react-redux";
   
@@ -40,6 +41,7 @@ const Home = ({products }) => {
     <Trendings products={products}  />
     <Shopbox /> 
     <MenFashion />
+    <Search />
     <Footer />
         </>
     
