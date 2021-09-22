@@ -6,6 +6,10 @@
     {
         @include container;
     }
+    .row
+    {
+      @include row;
+    }
     .heading-space
 {
   padding: 40px 0;
@@ -38,11 +42,13 @@
         margin: 0 auto;
         padding-left: 20px;
         justify-content: flex-start;
-        
+        form {
+          width: 100%;
+        }
       
       .search-bar {
        
-        width: 460px;
+        width: 60%;
         height: 46px;
         border: 2px solid $header;
         background: #ff6d00;
@@ -52,7 +58,7 @@
       }
     
       .search-btn{
-        width: auto;
+      
         height: 46px;
         background: $header;
         border: none;
@@ -62,3 +68,29 @@
       }
     
     }    
+
+    @media only screen and (max-width: 768px)
+{
+
+  .search-section{
+
+    .row
+    {
+     flex-direction: column;
+    }
+    .heading-space
+{
+  padding: 20px 0;
+}
+}
+.column-4,.column-6
+{
+  width: 100%;
+}
+.signup-head, .search
+    {
+      justify-content: flex-start;
+      padding: 0px;
+    }
+   
+}

@@ -7,14 +7,13 @@ import Shopbox from './Shopbox/Shopbox';
 import MenFashion from './Menfashion/Menfashion';
 import Search from './Search/Search';
 import Footer from './Footer/Footer';
-import { connect,useDispatch,} from "react-redux";
-  
+import { useDispatch,} from "react-redux";
   import { setItem } from "../redux/Action/cartAction";
   import { PRODUCT_PATH } from '../utils/env';
   import axios from "axios";
 
 
-const Home = ({products }) => {
+const Home = () => {
 
   const bannerContent = {title: 'iPhone 6 Plus',description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam consequat justo',button: 'Explore Now'};
     const dispatch = useDispatch();
@@ -38,7 +37,7 @@ const Home = ({products }) => {
          <Header  isDrop={isDrop} setIsDrop={setIsDrop}/>
     <Banner isDrop={isDrop} setIsDrop={setIsDrop} bannerContent={bannerContent} />
     <Women />
-    <Trendings products={products}  />
+    <Trendings />
     <Shopbox /> 
     <MenFashion />
     <Search />
@@ -47,11 +46,6 @@ const Home = ({products }) => {
     
     )
 }
-const mapStateToProps = (state) => {
-    return {
-      products: state.shop.products,
-    };
-  };
-  
-export default connect(mapStateToProps)(Home);
+
+export default Home;
 

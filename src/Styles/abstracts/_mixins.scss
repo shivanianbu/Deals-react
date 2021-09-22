@@ -74,7 +74,15 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
 width:100%;
 }
-
+@mixin box-text
+{
+    bottom: 10%;
+    width: 50%;
+    top: 10%;
+    position: absolute;
+    text-align: center;
+  
+}
 @mixin button
  {
   background-color: $orange;

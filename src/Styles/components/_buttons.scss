@@ -9,6 +9,18 @@
 
    }
 }
+.fashion-btn
+{
+   background-color: $black;
+  border: none;
+  color:$header;
+  padding: 5px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+
+}
 .box-text
 {
    .button1
@@ -83,5 +95,11 @@
    {
       @include button-reduce;
    }
+}
+.fashion-btn
+{
+   padding: 5px 20px;
+   font-size: 16px;
+
 }
 }

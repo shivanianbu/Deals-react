@@ -1,7 +1,7 @@
 import "./trendings.scss";
 import React from "react";
 import Product from "./Product";
-
+import { connect,useDispatch,} from "react-redux";
 
 
 const Trendings = ({products}) => {
@@ -15,7 +15,6 @@ const Trendings = ({products}) => {
           <div className="row">
           <div className="cards">
         {
-        
           products.filter(product => product.trending === "trend").map((product) =>
           
           <Product key={product.id} product={product} />
@@ -28,7 +27,13 @@ const Trendings = ({products}) => {
   )
 }
 
-export default Trendings;
+const mapStateToProps = (state) => {
+  return {
+    products: state.shop.products,
+  };
+};
+
+export default connect(mapStateToProps)(Trendings);
 
 
 

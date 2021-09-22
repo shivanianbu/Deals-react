@@ -212,12 +212,20 @@ color: $footer-text;
 
 @media only screen and (max-width: 1200px)
 {
+
 .footer-middle .col-2 {
     width: 25%;
 }
 }
 @media only screen and (max-width: 992px)
 {
+ .footer{ .footer-top{
+    .column{
+      width: 50%;
+    }
+  }
+   
+  }
 .footer-middle
 { .col-2 ,.col-4,.col-1{
     width: 50%;
@@ -240,6 +248,12 @@ color: $footer-text;
 
 @media only screen and (max-width: 576px)
 {
+  .footer{ .footer-top{
+    .column{
+      width: 100%;
+    }
+  }
+}
 .footer-middle
 { .col-2,.col-4,.col-1 {
     width: 100%;

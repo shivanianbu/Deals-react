@@ -28,12 +28,214 @@
         color: $black;
     }
 }
-
-.cards
+.img
 {
-    @include cards;
+    height: 100%;
+}
+.cardss
+{
+    background: $header;
+    display: flex;
+    width: 100%;
+    
     &-box
     {
-        margin: 15px;
+        padding: 15px 10px;
+        width: 25%;
+        height:auto;
     }
+    .col
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+    }
+    .row-2
+    {
+      height: 48%;
+    position: relative;
+
+.box-text-right{
+@include box-text;
+right: 10px;
+top:10%;
+line-height: 1.5;
+} 
+.box-text-left{
+   @include box-text;
+    left: 10px;
+    top:10%;
+    line-height: 1.5;
+    } 
+}
+.men1
+{
+    position: relative;
+    height: 100%;
+    .box-text-right
+    {
+        @include box-text;
+        right: 10px;
+        width: 60%;
+        top: 20%;
+        line-height: 1.6;
+        color: $header;
+    }
+  
+        h4{
+           font-size: 30px;
+        }
+} 
+.men-half
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+
+    .box-text-center
+    {
+        h5{
+            color: $header;
+        }
+        h4{
+            color: $black;
+        }
+        display: block;
+        @include box-text;
+        line-height: 1.6;
+    
+        top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+       
+    }
+
+}
+}
+
+.top-category{
+.category
+{
+   
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    color: $color-text;
+    align-items: center;
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 1200px)
+{
+.cardss{
+    .men1{
+    .box-text-right{
+        @include box-text;
+        // right: 10px;
+        top:7%;
+        line-height: 1.4;
+        } 
+}
+.men-half{
+    .box-text-center{
+    top: 35%;
+    }
+}
+}
+}
+
+@media only screen and (max-width: 992px)
+{
+    .cardss
+    {
+       
+        display: flex;
+        flex-wrap: wrap ;
+        &-box
+        {
+            width: 50%;
+        }
+        .men1{
+            .box-text-right{
+                top:20%;
+                line-height: 1.6;
+                } 
+        }
+        .row-2
+        {
+    .box-text-right{
+  
+    top:20%;
+    line-height: 1.6;
+    } 
+    .box-text-left{
+     
+        top:20%;
+        line-height: 1.6;
+        } 
+    }
+    .men-half{
+        h3{
+          font-size: 33px;
+        }
+        .box-text-center{
+        top: 40%;
+        width: 40%;
+        }
+    }
+    }
+
+}
+
+@media only screen and (max-width: 576px)
+{
+    .top-head
+    {
+        font-size: 16px;
+    }
+    .category-nav
+{
+    flex-direction: column;
+}
+    .cardss{
+        &-box
+        {
+            width: 100%;
+        }
+        .men1{
+            .box-text-right{
+                top:20%;
+                line-height: 1.6;
+                } 
+        }
+        .row-2
+        {
+            .poiret
+            {
+                font-size: 15px;
+            }
+    .box-text-right{
+  
+    top:20%;
+    line-height: 1.6;
+   
+    } 
+   
+    .box-text-left{
+     
+        top:20%;
+        line-height: 1.6;
+        } 
+    }
+    }
+
+    .italic
+    {
+        font-size: 23px;
+    }
+   
 }
