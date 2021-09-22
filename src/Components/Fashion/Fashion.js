@@ -1,30 +1,43 @@
 import React from 'react'
-import './menfashion.scss';
+import './fashion.scss';
 import {  Link } from "react-router-dom";
-import Man  from "../../images/mencoat.jpeg";
-import ManHalf from "../../images/men-half.jpg";
-import Levis from "../../images/leviss.jpg";
-import Digjam from "../../images/digjam.jpg";
-const Menfashion = () => {
+
+import { connect,useDispatch,} from "react-redux";
+
+
+
+const Fashion = (props) => {
+     const { fashion } = props;
+
+//      const getUnique = (arr, comp) =>{
+//           const unique =  arr.map(e => e[comp])
+//         .map((e, i, final) => final.indexOf(e) === i && i)
+//        .filter((e) => arr[e]).map(e => arr[e]);
+  
+//   return unique;
+//   };
+  
+//      const category =  getUnique(products, 'category');
+
     return (
        <div className="container">
            <div className="offer-content">
             <nav className="category-nav">
             <div className="offer-content">
-          <h6 className="topic">Men's Fashion</h6>
+          <h6 className="topic">{fashion.title}</h6>
           </div>
           <div className="offer-content">
          <ul className="men-nav">
-            <li><Link className="men-menus">United Colors</Link></li>
-            <li>  <Link className="men-menus">Levi's</Link></li>
-            <li> <Link className="men-menus">Cello</Link></li>
-            <li><Link className="men-menus" >Multi</Link></li>
-            <li> <Link className="men-menus">Lee</Link></li>
+         {/* { category.map((product) => console.log(product.category)
+            ) } */}
+            <li><Link className="men-menus">{fashion.link[0]}</Link></li>
+            <li> <Link className="men-menus">{fashion.link[1]}</Link></li>
+            <li> <Link className="men-menus">{fashion.link[2]}</Link></li>
+            <li><Link className="men-menus" >{fashion.link[3]}</Link></li>
+            <li> <Link className="men-menus">{fashion.link[4]}</Link></li>
          </ul>
          </div>
           </nav>
-        
-          
           <div className="cardss">
            <div className="cardss-box">
               <h6 className="top-head">Top Categories</h6>
@@ -41,10 +54,10 @@ const Menfashion = () => {
            </div>    
            <div className="cardss-box">
                <div className="men1">
-                    <img src={ Man } alt="Coat"  className="img" />
+                    <img src={ fashion.img1} alt="Coat"  className="img" />
                     <div className="box-text-right">
-                    <h5 className="italic">All FORMAL MEN'S WEAR ONLY ON </h5>
-                    <h4 className="italic">$499</h4>
+                    <h5 className="italic">{fashion.title1} </h5>
+                    <h4 className="italic">{fashion.price}</h4>
                             <a className="fashion-btn">Shop Now</a>
                         </div> 
                 </div>
@@ -52,16 +65,16 @@ const Menfashion = () => {
            <div className="cardss-box">
                 <div className="col">
               <div className="row-2">
-              <img src={Levis} alt="Shop Now" className="img" />
+              <img src={ fashion.img2} alt="Shop Now" className="img" />
               <div className="box-text-right">
-                            <h5 className="poiret">UPTO 50% OFF</h5>
+                            <h5 className="poiret">{fashion.offer}</h5>
                             <a className="fashion-btn">Shop Now</a>
                         </div>
               </div>
               <div className="row-2">
-              <img src={Digjam} alt="Shop Now" className="img" />
+              <img src={ fashion.img3} alt="Shop Now" className="img" />
               <div className="box-text-left">
-                            <h5 className="poiret">UPTO 50% OFF</h5>
+                            <h5 className="poiret">{fashion.offer}</h5>
                             <a className="fashion-btn">Shop Now</a>
                         </div>
                </div>
@@ -69,10 +82,10 @@ const Menfashion = () => {
            </div>
            <div className="cardss-box">
            <div className="men-half">
-                    <img src={ ManHalf } alt="Coat"  className="img" />
+                    <img src={ fashion.img4} alt="Coat"  className="img" />
                     <div className="box-text-center">
-                            <h5>40%-70% OFF ON</h5>
-                            <h3 className="italic">Suits and Blazers</h3>
+                            <h5>{fashion.offeron}</h5>
+                            <h3 className="italic">{fashion.item}</h3>
                             <a className="fashion-btn">Shop Now</a>
                         </div> 
                </div>
@@ -83,4 +96,11 @@ const Menfashion = () => {
     )
 }
 
-export default Menfashion;
+const mapStateToProps = (state) => {
+     return {
+       products: state.shop.products,
+     };
+   };
+   
+   export default connect(mapStateToProps)(Fashion);
+

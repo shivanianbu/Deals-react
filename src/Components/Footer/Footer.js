@@ -7,6 +7,8 @@ import PlayStore from "../../images/dwn_play.jpg";
 import Windows from "../../images/dwn_win.jpg";
 import { Link } from 'react-router-dom';
 
+
+
 const Footer = () => {
     return (
         <footer className="footer">
