@@ -33,7 +33,7 @@ const Home = () => {
   img2: "images/leviss.jpg",
   img3: "images/digjam.jpg",
   img4: "images/men-half.jpg",
-  }
+  };
 
   const womenFashion =
   {
@@ -48,7 +48,7 @@ const Home = () => {
   img2: "images/women_with.jpg",
   img3: "images/Leee.jpg",
   img4: "images/women2.jpeg",
-  }
+  };
 
 
     const dispatch = useDispatch();

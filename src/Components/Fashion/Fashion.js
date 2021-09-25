@@ -54,7 +54,7 @@ const Fashion = (props) => {
                     <div className="box-text-right">
                     <h5 className="italic">{fashion.title1} </h5>
                     <h4 className="italic">{fashion.price}</h4>
-                            <a className="fashion-btn">Shop Now</a>
+                    <Link className="fashion-btn">Shop Now</Link>
                         </div> 
                 </div>
            </div>
@@ -64,14 +64,14 @@ const Fashion = (props) => {
               <img src={ fashion.img2} alt="Shop Now" className="img" />
               <div className="box-text-right">
                             <h5 className="poiret">{fashion.offer}</h5>
-                            <a className="fashion-btn">Shop Now</a>
+                            <Link className="fashion-btn">Shop Now</Link>
                         </div>
               </div>
               <div className="row-2">
               <img src={ fashion.img3} alt="Shop Now" className="img" />
               <div className="box-text-left">
                             <h5 className="poiret">{fashion.offer}</h5>
-                            <a className="fashion-btn">Shop Now</a>
+                            <Link className="fashion-btn">Shop Now</Link>
                         </div>
                </div>
                </div>
@@ -82,7 +82,7 @@ const Fashion = (props) => {
                     <div className="box-text-center">
                             <h5>{fashion.offeron}</h5>
                             <h3 className="italic">{fashion.item}</h3>
-                            <a className="fashion-btn">Shop Now</a>
+                            <Link className="fashion-btn">Shop Now</Link>
                         </div> 
                </div>
            </div>

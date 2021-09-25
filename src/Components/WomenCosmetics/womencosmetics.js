@@ -1,6 +1,7 @@
 import React from 'react';
 import offer from '../../images/women-cus.jpg';
 import './women_cosmetic.scss'
+import { Link } from 'react-router-dom';
 
 const Womencosmetics = () => {
     return (
@@ -11,7 +12,7 @@ const Womencosmetics = () => {
                     <div className="left-content">
                         <h2>50% <span>OFF ON</span></h2>
                         <h3>WOMEN COSMETIC</h3>
-                        <a className="button" href="#">Shop Now</a>
+                        <Link className="button" to="#">Shop Now</Link>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 import React,{useEffect} from 'react'
 import { connect,useDispatch,} from "react-redux";
 import "./aside.scss";
+import { Link } from 'react-router-dom';
+
+
 const Aside = (props ) => {
     const {isDrop, setIsDrop, products} = props;
     const getUnique = (arr, comp) =>{
@@ -16,7 +19,7 @@ return unique;
     return (
         <div className={isDrop ? "sub-menus toggle" : "sub-menus"}>
            { category.map((product) =>
-            <a className="sub-menus-menu" href="#" >{product.category}<i className="icon-dropleft"></i></a>
+            <Link className="sub-menus-menu" to="/products" >{product.category}<i className="icon-dropleft"></i></Link>
             ) }
         </div>
     )

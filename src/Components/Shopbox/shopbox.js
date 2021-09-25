@@ -3,6 +3,7 @@ import shoe from "../../images/sheo.jpg";
 import mouse from "../../images/mouse.jpg";
 import women from "../../images/frocks.jpg";
 import "./posters.scss";
+import { Link } from 'react-router-dom';
 
 const Shopbox = () => {
     return (
@@ -14,7 +15,7 @@ const Shopbox = () => {
                         <div className="box-text">
                             <h5>MEN'S FOOTWARE SALE UPTO 50%</h5>
                             <h4 className="highlight">$499</h4>
-                            <a className="button1">Shop Now</a>
+                            <Link className="button1">Shop Now</Link>
                         </div>
                     </div>
                     <div className="shop-box">
@@ -22,7 +23,7 @@ const Shopbox = () => {
                         <div className="box-text">
                             <h5 className="italic">MOUSE ON SALE</h5>
                             <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            <a className="button2">Shop now</a>
+                            <Link className="button2">Shop now</Link>
 
                         </div>
                     </div>
@@ -31,7 +32,7 @@ const Shopbox = () => {
                         <div className="box-text">
                             <h5 className="poiret">WOMEN APPAREL SALE UPTO 30%</h5>
                             <h4>$599</h4>
-                            <a className="button3">Shop Now</a>
+                            <Link className="button3">Shop Now</Link>
                         </div>
                     </div>
                 </div>

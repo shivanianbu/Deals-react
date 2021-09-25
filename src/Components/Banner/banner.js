@@ -2,6 +2,8 @@ import React from 'react';
 import banner from '../../images/background.jpg';
 import Aside from '../Aside/Aside';
 import "./banner.scss";
+import { Link } from 'react-router-dom';
+
 
 const Banner = (props) => {
 
@@ -20,16 +22,16 @@ const {isDrop, setIsDrop,bannerContent} = props;
                                 <div className="content-body">
                                     <h1>{bannerContent.title}</h1>
                                     <p>{bannerContent.description}</p>
-                                    <a className="button">{bannerContent.button}</a>
+                                    <Link className="button">{bannerContent.button}</Link>
                                 </div>
                             </div>
                             <div className="bottom-navs">
-                                <a className="bottom-nav" href="#">Daily Deals</a>
-                                <a className="bottom-nav" href="#">Laptops</a>
-                                <a className="bottom-nav" href="#">Mobiles</a>
-                                <a className="bottom-nav" href="#">Clothings</a>
-                                <a className="bottom-nav" href="#">Kitchen Appliance</a>
-                                <a className="bottom-nav" href="#">Gifts Vouchers</a>
+                                <Link className="bottom-nav" to="#">Daily Deals</Link>
+                                <Link className="bottom-nav" to="#">Laptops</Link>
+                                <Link className="bottom-nav" to="#">Mobiles</Link>
+                                <Link className="bottom-nav" to="#">Clothings</Link>
+                                <Link className="bottom-nav" to="#">Kitchen Appliance</Link>
+                                <Link className="bottom-nav" to="#">Gifts Vouchers</Link>
                             </div>
 
                         </div>

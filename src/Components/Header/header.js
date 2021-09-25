@@ -5,6 +5,7 @@ import Cart from "../Cart/Cart";
 import '../Cart/cart.scss';
 import './header.scss';
 import { connect } from "react-redux";
+import { Link } from 'react-router-dom';
 
 const Header = ( props) => {
 
@@ -19,7 +20,7 @@ const Header = ( props) => {
             <div className="container">
                 <div className="header-row header-content">
                     <div className="col-3">
-                        <a href="#" className="logo"><img src={logo} alt="logo" /></a>
+                        <Link className="logo"><img src={logo} alt="logo" /></Link>
                     </div>
                     <div className="col-6">
                         <form>
@@ -33,16 +34,16 @@ const Header = ( props) => {
 
                             <li><a href="#">
                                 <div className="icon"><i className="icon-help"></i></div>
-                                <div className="name">Help</div>
-                            </a></li>
+                                <div className="name">Help</div></a>
+                           </li>
                             <li><a href="#">
                                 <div className="icon"><i className="icon-track"></i></div>
-                                <div className="name">Track</div>
-                            </a></li>
+                                <div className="name">Track</div></a>
+                           </li>
                             <li><a href="#">
                                 <div className="icon"><i className="icon-account"></i><i className="icon-dropdown"></i></div>
-                                <div className="name">Account</div>
-                            </a></li>
+                                <div className="name">Account</div></a>
+                           </li>
                             <li><a className="cart-btn"
                              onClick={() => setIsCart(!isCart)}
                              >
@@ -74,12 +75,12 @@ const Header = ( props) => {
                         </div>
                         <div className="col-7">
                             <div className={isShow ? "sub-navs active" : "sub-navs"}>
-                                <a className="sub-navs-nav" href="#">Our Stores</a>
-                                <a className="sub-navs-nav" href="#">Gift Cards</a>
-                                <a className="sub-navs-nav" href="#">Season Sale</a>
-                                <a className="sub-navs-nav" href="#">Best Deals</a>
-                                <a className="sub-navs-nav" href="#">Login</a>
-                                <a className="sub-navs-nav" href="#">Register</a>
+                                <Link className="sub-navs-nav" to="#">Our Stores</Link>
+                                <Link className="sub-navs-nav" to="#">Gift Cards</Link>
+                                <Link className="sub-navs-nav" to="#">Season Sale</Link>
+                                <Link className="sub-navs-nav" to="#">Best Deals</Link>
+                                <Link className="sub-navs-nav" to="#">Login</Link>
+                                <Link className="sub-navs-nav" to="#">Register</Link>
                             </div>
                         </div>
                     </div>

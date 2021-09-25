@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { connect, connectFunction } from "react-redux";
 import "./cart.scss";
 import CartItem from "./CartItems";
-
+import { Link } from 'react-router-dom';
 
 const Cart = ({ cart }) => {
    
@@ -43,7 +43,7 @@ const Cart = ({ cart }) => {
             </table>
         </div>
         <div className="cart-checkout">
-            <a className="checkout-btn" href="#">Proceed to checkout</a>
+            <Link className="checkout-btn" to="#">Proceed to checkout</Link>
         </div>
         </>
      

@@ -1,9 +1,9 @@
 import React from 'react'
 import { BASE_PATH } from '../../utils/env';
 import { connect } from "react-redux";
-import {
-    addToCart,
-  } from "../../redux/Action/cartAction";
+import { addToCart } from "../../redux/Action/cartAction";
+  
+import { Link } from 'react-router-dom';
 
 const Product = ({ product, addToCart }) => {
     return (
@@ -19,9 +19,9 @@ const Product = ({ product, addToCart }) => {
                 </div>
               </div>
               <div className="product-cart">
-                <a className="search-cart"></a>
-                <a className="bag-btn"><i className="icon-shoppingcart"  onClick={() => addToCart(product.id)} ></i></a>
-                <a className="analytics"></a>
+                <Link className="search-cart"></Link>
+                <Link className="bag-btn"><i className="icon-shoppingcart"  onClick={() => addToCart(product.id)} ></i></Link>
+                <Link className="analytics"></Link>
               </div>
             </article>
           )

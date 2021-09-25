@@ -38,13 +38,13 @@ const Footer = () => {
                                <h6 className="footer-headings">INFORMATION</h6>
                               </div>
                                <ul class="links">
-                        <li><a href="javascript:void(0)">About us</a></li>
-                        <li><a href="javascript:void(0)">Our office</a></li>
-                         <li><a href="javascript:void(0)">Delivery</a></li>
-                         <li><a href="javascript:void(0)">Store</a></li>
-                        <li><a href="javascript:void(0)">Guarantee</a></li>
-                         <li><a href="javascript:void(0)">Buy gift cards</a></li>
-                         <li><a href="javascript:void(0)">Returns</a></li>
+                        <li><Link to="#">About us</Link></li>
+                        <li><Link to="#">Our office</Link></li>
+                         <li><Link to="#">Delivery</Link></li>
+                         <li><Link to="#">Store</Link></li>
+                        <li><Link to="#">Guarantee</Link></li>
+                         <li><Link to="#">Buy gift cards</Link></li>
+                         <li><Link to="#">Returns</Link></li>
                               </ul>
                             
                                 </div>
@@ -55,13 +55,13 @@ const Footer = () => {
                                <h6 className="footer-headings">POLICY INFO</h6>
                                 </div>
                                 <ul class="links">
-                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                        <li><a href="javascript:void(0)">Terms of Sale</a></li>
-                         <li><a href="javascript:void(0)">Terms of Use</a></li>
-                         <li><a href="javascript:void(0)">Report Abuse</a></li>
-                        <li><a href="javascript:void(0)">CSR Policy</a></li>
-                         <li><a href="javascript:void(0)">T&amp;C Adv./Media</a></li>
-                         <li><a href="javascript:void(0)">FAQ</a></li>
+                        <li><Link to="#">Privacy Policy</Link></li>
+                        <li><Link to="#">Terms of Sale</Link></li>
+                         <li><Link to="#">Terms of Use</Link></li>
+                         <li><Link to="#">Report Abuse</Link></li>
+                        <li><Link to="#">CSR Policy</Link></li>
+                         <li><Link to="#">T&amp;C Adv./Media</Link></li>
+                         <li><Link to="#">FAQ</Link></li>
                               </ul>
                                 </div>
                             </div>
@@ -72,11 +72,11 @@ const Footer = () => {
                                <h6 className="footer-headings">WHAT IN STORES</h6>
                                 </div>
                                 <ul class="links">
-                        <li><a href="javascript:void(0)">Women</a></li>
-                        <li><a href="javascript:void(0)">Men</a></li>
-                         <li><a href="javascript:void(0)">Accessories</a></li>
-                         <li><a href="javascript:void(0)">Buy Gift Vouchers</a></li>
-                        <li><a href="javascript:void(0)">Electronics</a></li>
+                        <li><Link to="#">Women</Link></li>
+                        <li><Link to="#">Men</Link></li>
+                         <li><Link to="#">Accessories</Link></li>
+                         <li><Link to="#">Buy Gift Vouchers</Link></li>
+                        <li><Link to="#">Electronics</Link></li>
                               </ul>
                             </div>
                             </div>
@@ -87,12 +87,12 @@ const Footer = () => {
                                <h6 className="footer-headings">EDEALS BUSINESS</h6>
                                 </div>
                                 <ul class="links">
-                        <li><a href="javascript:void(0)">Edeals Gift Voucher</a></li>
-                        <li><a href="javascript:void(0)">Sell on Edeals</a></li>
-                         <li><a href="javascript:void(0)">Media Entities</a></li>
-                         <li><a href="javascript:void(0)">Be an affiliate</a></li>
-                        <li><a href="javascript:void(0)">Deal of the Day</a></li>
-                        <li><a href="javascript:void(0)">Edeals Launchpad</a></li>
+                        <li><Link to="#">Edeals Gift Voucher</Link></li>
+                        <li><Link to="#">Sell on Edeals</Link></li>
+                         <li><Link to="#">Media Entities</Link></li>
+                         <li><Link to="#">Be an affiliate</Link></li>
+                        <li><Link to="#">Deal of the Day</Link></li>
+                        <li><Link to="#">Edeals Launchpad</Link></li>
                               </ul>
                                 </div>
                             </div>
@@ -108,10 +108,10 @@ const Footer = () => {
 
                                     <p>All major credit &amp; debit cards accepted</p>
                                     <ul className="payment-cards">
-                                        <li className="pay"><a href="#" title="Paypal" target="_blank"><i className="icon-paypal" ></i></a></li>
-                                        <li className="pay"><a href="#" title="Visa" target="_blank"><i className="icon-visa"></i> </a></li>
-                                        <li className="pay"><a href="#" title="American" target="_blank"><i className="icon-american"></i></a></li>
-                                        <li className="pay"><a href="#" title="Master Card" target="_blank"><i className="icon-mastercard"></i></a></li>
+                                        <li className="pay"><Link to="#" title="Paypal" target="_blank"><i className="icon-paypal" ></i></Link></li>
+                                        <li className="pay"><Link to="#" title="Visa" target="_blank"><i className="icon-visa"></i> </Link></li>
+                                        <li className="pay"><Link to="#" title="American" target="_blank"><i className="icon-american"></i></Link></li>
+                                        <li className="pay"><Link to="#" title="Master Card" target="_blank"><i className="icon-mastercard"></i></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,11 +135,11 @@ const Footer = () => {
                             <div className="col-4">
                             <div className="footer-content">
                                 <div className="trustpay">
-                                    <a href="#default" className="logo"><img src={Trust} />
+                                    <Link to="#" className="logo"><img src={Trust} />
                                         <div className="trust-logo">
                                             TrustPay
                                         </div>
-                                    </a>
+                                    </Link>
                                     <span>100% Moneyback Guarantee &amp; 7 Days Return Policy&gt;&gt;</span>
 
                                 </div>
