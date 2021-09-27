@@ -7,10 +7,8 @@ import Shopbox from './Shopbox/Shopbox';
 import Fashion from './Fashion/Fashion';
 import Search from './Search/Search';
 import Footer from './Footer/Footer';
-import { useDispatch,} from "react-redux";
-  import { setItem } from "../redux/Action/cartAction";
-  import { PRODUCT_PATH } from '../utils/env';
-  import axios from "axios";
+
+
 
 
 const Home = () => {
@@ -49,21 +47,8 @@ const Home = () => {
   img3: "images/Leee.jpg",
   img4: "images/women2.jpeg",
   };
-
-
-    const dispatch = useDispatch();
-    const fetchProducts = async () => {
-      const response = await axios
-        .get(PRODUCT_PATH)
-        .catch((err) => {
-          console.log("err", err);
-        });
-      dispatch(setItem(response.data));
-    };
   
-    useEffect(() => {
-      fetchProducts();
-    }, []);
+  
   
     const [isDrop, setIsDrop] = useState(false);
 
@@ -79,9 +64,7 @@ const Home = () => {
     <Search />
     <Footer />
         </>
-    
     )
 }
 
 export default Home;
-

@@ -2,13 +2,12 @@ import React from 'react'
 import { BASE_PATH } from '../../utils/env';
 import { connect } from "react-redux";
 import { addToCart } from "../../redux/Action/cartAction";
-  
 import { Link } from 'react-router-dom';
 
-const Product = ({ product, addToCart }) => {
-    return (
-       
 
+const Product = ({ product, addToCart }) => {
+    
+  return (
             <article className="card">
               <div className="card-box">
                 <img src={`${BASE_PATH}/${product.image}`} alt="trendings" className="img" />

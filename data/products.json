@@ -59,7 +59,7 @@
         "id": "7",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/camera2.jpg",
         "trending": "no",
         "category" : "Camera",
         "type": "samsung"
@@ -68,7 +68,7 @@
         "id": "8",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/camera1.jpg",
         "trending": "no",
         "category" : "Camera",
         "type": "samsung"
@@ -77,7 +77,7 @@
         "id": "9",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/laptop.jpg",
         "trending": "no",
         "category" : "Laptop",
         "type": "samsung"
@@ -86,7 +86,7 @@
         "id": "10",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/laptop2.jpg",
         "trending": "no",
         "category" : "Laptop",
         "type": "samsung"
@@ -202,7 +202,7 @@
         "id": "23",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/laptop2.jpg",
         "trending": "no",
         "category" : "Laptop"
       },
@@ -226,7 +226,7 @@
         "id": "26",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/computer.jpg",
         "trending": "no",
         "category" : "Computer",
         "type" : "Trousers & Chinos"
@@ -235,7 +235,7 @@
         "id": "27",
         "title": "",
         "price": 1200,
-        "image": "",
+        "image": "images/computer2.jpg",
         "trending": "no",
         "category" : "Computer",
         "type" : "Trousers & Chinos"
