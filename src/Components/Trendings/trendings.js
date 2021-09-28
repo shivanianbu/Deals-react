@@ -5,7 +5,7 @@ import { connect,useDispatch,} from "react-redux";
 
 
 const Trendings = ({products}) => {
-// console.log(products);
+
   return (
     <section className="trending">
       <div className="container">

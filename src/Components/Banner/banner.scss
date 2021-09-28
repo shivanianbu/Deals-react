@@ -22,33 +22,6 @@
     }
 
 
-.sub-menus{
-    box-shadow: $shadow;
-    background: $header;
-&-menu
-{
-   
-    display: flex;
-    padding: 15px;
-    border-bottom: 1px solid #F0EBEB;
-    justify-content: space-between;
-    color: $color-text;
-    align-items: center;
-}
-&-menu:hover{
-    background: $background;
-    cursor: pointer;
-}
-.icon-dropleft
-{
-    
-    background: url('../../images/arrow-rightaa.jpg') no-repeat;
-    padding: 5px;
-    background-size:cover;
-    display: inline-block;
-    height: 5px;                        
-}
-}
 .banner
 {
     padding-left: 45px;
@@ -105,10 +78,7 @@
 
 @media only screen and (max-width: 1200px)
 {
-	.sub-menus-menu
-    {
-        padding: 11px;
-    }
+
     .banner{
         padding-left: 30px;
         padding-top: 30px;
@@ -116,11 +86,6 @@
 }
 @media only screen and (max-width: 992px)
 {
-    .sub-menus-menu
-    {
-        padding: 9px;
-        font-size: 13px;
-    }
     .banner{
  
         .bottom-navs

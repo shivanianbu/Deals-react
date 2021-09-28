@@ -4,20 +4,25 @@
       {
         "id": "1",
         "title": "Canon Medium Format DSLR2",
-        "price": 1200,
+        "price": 2400,
         "image": "images/camera1.jpg",
         "trending": "trend",
         "category" : "Camera",
-        "type": "samsung"
+        "type": "DSLR Camera",
+        "description": "Sensor: APS-C CMOS Sensor with 24.1 MP (high resolution for large prints and image cropping). Transmission frequency (central frequency):Frequency: 2 412 to 2 462MHz. ISO: 100-6400 sensitivity range (critical for obtaining grain-free pictures, especially in low light). Image Processor: DIGIC 4+ with 9 autofocus points (important for speed and accuracy of autofocus and burst photography). Video Resolution: Full HD video with fully manual control and selectable frame rates (great for precision and high-quality video work)",
+        "brand": "Canon"
       },
       {
         "id": "2",
         "title": "ASUS X750 17 Inch laptop with keyboard",
-        "price": 1200,
+        "price": 31900,
         "image": "images/laptop1.jpg",
         "trending": "trend",
-        "category" : "Laptop",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Laptop",
+        "description": "Free upgrade to Windows 11 when available. Disclaimer-Upgrade rollout plan is being finalized and is scheduled to begin late in 2021 and continue into 2022. Specific timing will vary by device. Processor: AMD Ryzen 3 3250U Processor, 2.6 GHz Base Speed, Up to 3.5 GHz Max Boost Speed, 2 Cores, 4 Threads, 4MB L3 Cache. Display: 14-inch (35.56 cms), FHD (1920 x 1080) 16:9 LED-Backlit LCD, 250nits, NanoEdge bezel, Anti-Glare Plane with 45% NTSC, 82% Screen-To-Body Ratio",
+        "brand": "Asus"
+
       },
       {
         "id": "3",
@@ -26,7 +31,9 @@
         "image": "images/mobile1.jpg",
         "trending": "trend",
         "category" : "Mobile",
-        "type": "samsung"
+        "type": "Smartphones",
+        "description": "Make entertainment picture perfect with amazing clarity and top notch viewing experience at every angle | Big 6.5 HD+ IPS water drop notch display. A feast for the ears - high definition crystal clear sound with loud audio speaker. Built to last - Peace of mind made possible by Corning Gorilla Glass 3 Display Protection & Free Screen Replacement",
+        "brand" : "Samsung"
       },
       {
         "id": "4",
@@ -34,8 +41,10 @@
         "price": 1200,
         "image": "images/tablet1.jpg",
         "trending": "trend",
-        "category" : "Tablet",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Tablet",
+        "description": "22.05 cm (8.7inch) Immersive Display (1340 X 800 pixels resolution) with elegant slim bezel, 80% screen-to-body ratio for best viewing experience. 8 MP Rear Camera, 2 MP Front facing Camera, Powerful MT8768T processor for best-in class multi-media experience",
+        "brand": "Lenovo"
       },
       {
         "id": "5",
@@ -43,400 +52,541 @@
         "price": 1200,
         "image": "images/pendrive1.jpg",
         "trending": "trend",
-        "category" : "Pendrive",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Pendrive",
+        "description": "The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers",
+        "brand": "HP"
       },
       {
         "id": "6",
-        "title": "Men Casual Shoe",
+        "title": "Russian Helios M42 Screw muont Lens.",
         "price": 1200,
         "image": "images/camera1.jpg",
         "trending": "no",
         "category" : "Camera",
-        "type": "samsung"
+        "type": "Film Camera",
+        "description": "Sensor: APS-C CMOS Sensor with 24.1 MP (high resolution for large prints and image cropping). Transmission frequency (central frequency):Frequency: 2 412 to 2 462MHz. ISO: 100-6400 sensitivity range (critical for obtaining grain-free pictures, especially in low light). Image Processor: DIGIC 4+ with 9 autofocus points (important for speed and accuracy of autofocus and burst photography). Video Resolution: Full HD video with fully manual control and selectable frame rates (great for precision and high-quality video work)",
+        "brand":"Russian Helios"
+
       },
       {
         "id": "7",
-        "title": "",
+        "title": "Sony Digital Vlog Camera ZV 1 (Compact, Video Eye AF, Flip Screen)",
         "price": 1200,
         "image": "images/camera2.jpg",
         "trending": "no",
         "category" : "Camera",
-        "type": "samsung"
+        "type": "Digital Camera",
+        "description": "Sensor: APS-C CMOS Sensor with 24.1 MP (high resolution for large prints and image cropping). Transmission frequency (central frequency):Frequency: 2 412 to 2 462MHz. ISO: 100-6400 sensitivity range (critical for obtaining grain-free pictures, especially in low light). Image Processor: DIGIC 4+ with 9 autofocus points (important for speed and accuracy of autofocus and burst photography). Video Resolution: Full HD video with fully manual control and selectable frame rates (great for precision and high-quality video work)",
+        "brand": "Sony"
+
       },
       {
         "id": "8",
-        "title": "",
+        "title": "Nikon D3500 DSLR Camera with AF-P 18-55 mm + AF-P 70-300 mm",
         "price": 1200,
         "image": "images/camera1.jpg",
         "trending": "no",
         "category" : "Camera",
-        "type": "samsung"
+        "type": "DSLR Camera",
+        "description": "Sensor: APS-C CMOS Sensor with 24.1 MP (high resolution for large prints and image cropping). Transmission frequency (central frequency):Frequency: 2 412 to 2 462MHz. ISO: 100-6400 sensitivity range (critical for obtaining grain-free pictures, especially in low light). Image Processor: DIGIC 4+ with 9 autofocus points (important for speed and accuracy of autofocus and burst photography). Video Resolution: Full HD video with fully manual control and selectable frame rates (great for precision and high-quality video work)",
+        "brand": "Nikon"
       },
       {
         "id": "9",
-        "title": "",
+        "title": "HP Chromebook 14-inch (35.56 cms) Thin & Light Touchscreen Laptop ",
         "price": 1200,
         "image": "images/laptop.jpg",
         "trending": "no",
-        "category" : "Laptop",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Laptop",
+        "description": "Free upgrade to Windows 11 when available. Disclaimer-Upgrade rollout plan is being finalized and is scheduled to begin late in 2021 and continue into 2022. Specific timing will vary by device. Processor: AMD Ryzen 3 3250U Processor, 2.6 GHz Base Speed, Up to 3.5 GHz Max Boost Speed, 2 Cores, 4 Threads, 4MB L3 Cache. Display: 14-inch (35.56 cms), FHD (1920 x 1080) 16:9 LED-Backlit LCD, 250nits, NanoEdge bezel, Anti-Glare Plane with 45% NTSC, 82% Screen-To-Body Ratio",
+        "brand": "HP"
+
       },
       {
         "id": "10",
-        "title": "",
+        "title": "Dell Inspiron 3502 15.6 (39.62 cms) HD Display Laptop",
         "price": 1200,
         "image": "images/laptop2.jpg",
         "trending": "no",
-        "category" : "Laptop",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Laptop",
+        "description": "Free upgrade to Windows 11 when available. Disclaimer-Upgrade rollout plan is being finalized and is scheduled to begin late in 2021 and continue into 2022. Specific timing will vary by device. Processor: AMD Ryzen 3 3250U Processor, 2.6 GHz Base Speed, Up to 3.5 GHz Max Boost Speed, 2 Cores, 4 Threads, 4MB L3 Cache. Display: 14-inch (35.56 cms), FHD (1920 x 1080) 16:9 LED-Backlit LCD, 250nits, NanoEdge bezel, Anti-Glare Plane with 45% NTSC, 82% Screen-To-Body Ratio",
+        "brand": "Dell"
+
       },
       {
         "id": "11",
-        "title": "",
+        "title": "Nokia 105 Single SIM (Black)",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Mobile",
-        "type": "samsung"
+        "type": "Basic Mobiles",
+        "description": "Talk from sunrise to sunset thanks to long-lasting battery. Trust in modern, durable design with color that lasts and a polycarbonate frame. With capacity for up to 2,000 contacts and up to 500 SMS, there’s plenty of space",
+        "brand": "Nokia"
       },
       {
         "id": "12",
-        "title": "",
+        "title": "OPPO A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Mobile",
-        "type": "samsung"
+        "type": "Smartphones",
+        "description": "Make entertainment picture perfect with amazing clarity and top notch viewing experience at every angle | Big 6.5 HD+ IPS water drop notch display. A feast for the ears - high definition crystal clear sound with loud audio speaker. Built to last - Peace of mind made possible by Corning Gorilla Glass 3 Display Protection & Free Screen Replacement",
+        "brand": "OPPO"
+
       },
       {
         "id": "13",
-        "title": "",
+        "title": "Lenovo Tab M10 FHD Plus Tablet , Platinum Grey",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Tablet",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Tablet",
+        "description": "22.05 cm (8.7inch) Immersive Display (1340 X 800 pixels resolution) with elegant slim bezel, 80% screen-to-body ratio for best viewing experience. 8 MP Rear Camera, 2 MP Front facing Camera, Powerful MT8768T processor for best-in class multi-media experience",
+        "brand": "Lenovo"
+
       },
       {
         "id": "14",
-        "title": "",
+        "title": "Panasonic Tab 8 HD Tablet (20.32 cm (8 Inch), 3GB | 32GB, Wi-Fi + 4G LTE + Voice Calling, Dual Sim), Black",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Tablet",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Tablet",
+        "description": "22.05 cm (8.7inch) Immersive Display (1340 X 800 pixels resolution) with elegant slim bezel, 80% screen-to-body ratio for best viewing experience. 8 MP Rear Camera, 2 MP Front facing Camera, Powerful MT8768T processor for best-in class multi-media experience",
+        "brand": "Panasonic"
       },
       {
         "id": "15",
-        "title": "",
+        "title": "SanDisk Cruzer Blade 32GB USB Flash Drive",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Pendrive",
+        "description": "The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers",
+        "brand": "SanDisk"
+
       },
       {
         "id": "16",
-        "title": "",
+        "title": "SanDisk Ultra Dual Drive Go Type C PenDrive for Mobile",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Pendrive",
+        "description": "The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers"
+
       },
       {
         "id": "17",
-        "title": "",
+        "title": "SanDisk Cruzer Blade 32GB USB Flash Drive",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Pendrive",
-        "type": "samsung"
+        "category" : "Computer",
+        "type": "Pendrive",
+        "description": "The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers"
+
       },
       {
         "id": "18",
-        "title": "",
-        "price": 1200,
+        "title": "Daawat Rozana Gold Basmati Rice, 5kg",
+        "price": 450,
         "image": "",
         "trending": "no",
         "category" : "groceries",
-        "type": "samsung"
+        "type": "Rice",
+        "description": "Zero cholesterol: Good for your heart and cardio vascular functioning. HET processed and enriched with vitamins and minerals: For stronger immunity Whole grain (Lower carbohydrates): Helps in overall health"
       },
       {
         "id": "19",
-        "title": "",
-        "price": 1200,
+        "title": "India Gate Basmati Rice, Rozana, 5kg",
+        "price": 495,
         "image": "",
         "trending": "no",
         "category" : "groceries",
-        "type": "samsung"
+        "type": "Flour",
+        "description": "Zero cholesterol: Good for your heart and cardio vascular functioning. HET processed and enriched with vitamins and minerals: For stronger immunity Whole grain (Lower carbohydrates): Helps in overall health"
+
       },
       {
         "id": "20",
-        "title": "",
+        "title": "Amazon Brand - Stone & Beam Sitka Fabric 3 Seater Sofa (Blue)",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Furnitures",
-        "type": "samsung"
+        "type": "Sofa",
+        "description": "Modern Fabric Sofa made for cosying up, power naps and guilt-free lounging; lightweight design that adapts to tea parties, working days and playdates. Meets Safety Standard EN 12520; can accommodate three adults or five kids; sports a classic design free of toxins and harmful chemicals"
       },
       {
         "id": "21",
-        "title": "",
-        "price": 1200,
+        "title": "Amazon Brand - Solimo 3-Door Foldable Wardrobe, 10 Racks, Blue",
+        "price": 2499,
         "image": "",
         "trending": "no",
         "category" : "Furnitures",
-        "type": "samsung"
+        "type": "Cupboard",
+        "description": "3-door foldable wardrobe with sturdy steel metal pipes frame. Blue outer cover with premium-quality and long-lasting zippers. Includes a detailed set-up instructions manual. Easy to assemble, disassemble and move around"
       },
       {
         "id": "22",
-        "title": "",
-        "price": 1200,
+        "title": "Redmi 9A (Nature Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
+        "price": 12000,
         "image": "",
         "trending": "no",
-        "category" : "Mobile"
+        "category" : "Mobile",
+        "type" : "Smartphones",
+        "description": "Make entertainment picture perfect with amazing clarity and top notch viewing experience at every angle | Big 6.5 HD+ IPS water drop notch display. A feast for the ears - high definition crystal clear sound with loud audio speaker. Built to last - Peace of mind made possible by Corning Gorilla Glass 3 Display Protection & Free Screen Replacement"
+
       },
       {
         "id": "23",
-        "title": "",
+        "title": "Lenovo IdeaPad Slim 3 2021 11th Gen Intel Core i3 15.6 FHD Thin",
         "price": 1200,
         "image": "images/laptop2.jpg",
         "trending": "no",
-        "category" : "Laptop"
+        "category" : "Computer",
+        "type": "Tablet",
+        "description": "22.05 cm (8.7inch) Immersive Display (1340 X 800 pixels resolution) with elegant slim bezel, 80% screen-to-body ratio for best viewing experience. 8 MP Rear Camera, 2 MP Front facing Camera, Powerful MT8768T processor for best-in class multi-media experience"
+
       },
       {
         "id": "24",
-        "title": "",
+        "title": "TIMEWEAR Analog Day Date Functioning Stainless Steel Chain Watch for Men",
         "price": 1200,
         "image": "",
         "trending": "no",
-        "category" : "Electronics"
+        "category" : "Electronics",
+        "type": "Watches",
+        "description": "Dial Color : White | Dial Diameter : 38 mm | Case Thickness : 8mm | Band Width : 22mm | Max Perimeter : 220mm | Min Perimeter : 160mm. Premium Day Date Watch | Japanese Quartz Movement | Battery: 100% Original | Life: 2-3 Years"
       },
       {
         "id": "25",
-        "title": "",
-        "price": 1200,
+        "title": "AmazonBasics USB Type-C to USB-A 2.0 Male Cable - 9 Feet (2.7 Meters) - White",
+        "price": 529,
         "image": "",
         "trending": "no",
-        "category" : "Electronics"
+        "category" : "Electronics",
+        "type": "USB-C",
+        "description": "Connect USB Type-C enabled devices (MacBook, Chromebook Pixel, Galaxy Note 7, etc.) with standard USB Type-A enabled devices (laptops, hard drives, power banks, wall/car chargers, etc.). Connect USB Type-C enabled devices (MacBook, Chromebook Pixel, Galaxy Note 7, etc.) with standard USB Type-A enabled devices (laptops, hard drives, power banks, wall/car chargers, etc.)"
       },
       {
         "id": "26",
-        "title": "",
+        "title": "HP v236w 64GB USB 2.0 Pen Drive",
         "price": 1200,
         "image": "images/computer.jpg",
         "trending": "no",
         "category" : "Computer",
-        "type" : "Trousers & Chinos"
+        "type" : "Pendrive",
+        "description": "The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers"
+
       },
       {
         "id": "27",
-        "title": "",
+        "title": "Samsung Galaxy Tab S7 FE 31.5 cm (12.4 inch) Large Display, S-Pen in Box,RAM 4 GB, ROM 64 GB Expandable, Wi-Fi Tablet, Mystic Silver",
         "price": 1200,
         "image": "images/computer2.jpg",
         "trending": "no",
         "category" : "Computer",
-        "type" : "Trousers & Chinos"
+        "type" : "Tablet",
+        "description": "22.05 cm (8.7inch) Immersive Display (1340 X 800 pixels resolution) with elegant slim bezel, 80% screen-to-body ratio for best viewing experience. 8 MP Rear Camera, 2 MP Front facing Camera, Powerful MT8768T processor for best-in class multi-media experience"
+
       },
       {
         "id": "28",
-        "title": "",
+        "title": "Amazon Brand - House & Shields Men's Chino Regular Casual Trousers",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Trousers & Chinos"
+        "type" : "Trousers & Chinos",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
       },
       {
         "id": "29",
-        "title": "",
+        "title": "FAVOROSKI Designer Men's Slim Italian Fit Shawl Collar Tuxedo Suit Blazer",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Suits & Blazers"
+        "type" : "Suits & Blazers",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "30",
-        "title": "",
+        "title": "BIO FASHION Boys Slimfit Suits/Blazer_BFN230Blue_3-4Years Blue",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Suits & Blazers"
+        "type" : "Suits & Blazers",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "31",
-        "title": "",
+        "title": "Full Sleeve Solid Men Jacket",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Jackets"
+        "type" : "Jackets",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "32",
-        "title": "",
+        "title": "VERSATYL Rain Jackets For Men Waterproof, All Season Riding Jacket Stylish, Windcheater",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Jackets"
+        "type" : "Jackets",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "33",
-        "title": "",
+        "title": "Various Dots Men Sweatshirt | Full Sleeve, Regular Fit, Crew Neck and Ribbed Hems ",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Sweatshirts"
+        "type" : "Sweatshirts",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "34",
-        "title": "",
+        "title": "Amazon Brand - Inkast Denim Co. Men Hooded Sweatshirt",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Sweatshirts"
+        "type" : "Sweatshirts",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
       },
       {
         "id": "35",
-        "title": "",
+        "title": "XTRO Cotton Silk Kurta pyjama set with Ethnic Premium Nehru jacket for Men's.",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Kurta & Sherwanis"
+        "type" : "Kurta & Sherwanis",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
       },
       {
         "id": "36",
-        "title": "",
+        "title": "Ben Martin Men's Regular Fit Denim Jeans(BM-JNS-.LIGHTGREY)",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Jeans"
+        "type" : "Jeans",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
       },
       {
         "id": "37",
-        "title": "",
+        "title": "Diverse Men's Slim Fit Printed Jeans",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Jeans"
+        "type" : "Jeans",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "38",
-        "title": "",
+        "title": "The Souled Store Men's Regular Fit T-Shirt",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "T-Shirts & Polos"
+        "type" : "T-Shirts & Polos",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "39",
-        "title": "",
+        "title": "BLIVE Regular fit Solid Men's Henley Neck Full Sleeve Cotton Blend T Shirts",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "T-Shirts & Polos"
+        "type" : "T-Shirts & Polos",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "40",
-        "title": "",
+        "title": "Diverse Men's Slim Formal Shirt",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Shirts"
+        "type" : "Shirts",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "41",
-        "title": "",
+        "title": "Amazon Brand - Symbol Men's Slim Fit Shirt",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Men's Fashion",
-        "type" : "Shirts"
+        "type" : "Shirts",
+        "description": "Care Instructions: Machine Wash Front slant pocket, coin pocket and back welt pocket with button closure A classic pair of twill pants, crafted in quality fabric, comfortable fit and cuts that lend durability"
+
       },
       {
         "id": "42",
-        "title": "",
+        "title": "VAEGI Casual Solid Short Sleeves Round Neck Top for Women/Girls",
         "price": 1200,
-        "image": "",
+        "image": "KRISHNA CREATION Women's Pure Cambric Cotton Dress Material Top Wear With Dupatta,Salwar Suit",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Top Wear"
+        "type" : "Top Wear",
+        "description": "Care Instructions: Machine Wash Fit Type: Regular Fit Stylish Durable Soft feel Fashion Tunic"
       },
       {
         "id": "43",
-        "title": "",
+        "title": "9rasa Women's Cotton Chudidar Bottom BT-11_Black_Freesize",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Bottom Wear"
+        "type" : "Bottom Wear",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+    
       },
       {
         "id": "44",
-        "title": "",
+        "title": "Rangrasiya Corporation Women's Anarkali Knee Length Gown (Free Size)",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Dresses"
+        "type" : "Dresses",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
       },
       {
         "id": "45",
-        "title": "",
+        "title": "Mallory Winston Women's Comfy Lace Grey Cotton Sleepwear Cami Top and Shorts Pajama Set",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Lingerie & Sleepwear"
+        "type" : "Sleepwear",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
       },
       {
         "id": "46",
-        "title": "",
+        "title": "ALBATROZ Yoga Push Up Racerback Sports Bra for Womens Girls Gym Running Padded Tank",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Sportswear"
+        "type" : "Sportswear",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
       },
       {
         "id": "47",
-        "title": "",
+        "title": "Maniac Women's Cotton Blend Hooded Neck Sweatshirt",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "SweatShirts"
+        "type" : "SweatShirts",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
       },
       {
         "id": "48",
-        "title": "",
+        "title": "Miss Chase Women's Light Blue Wide-Leg Fit High Rise Clean Look Regular Length Denim Jeans",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Jeans"
+        "type" : "Jeans",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
       },
       {
-        "id": "48",
-        "title": "",
+        "id": "49",
+        "title": "Women's Pure Cotton Printed Straight Kurti",
         "price": 1200,
         "image": "",
         "trending": "no",
         "category" : "Women's Fashion",
-        "type" : "Kurtis"
+        "type" : "Kurtis",
+        "description": "Care Instructions: Hand Wash Only Fit Type: Regular Fit Size: Freesize Fabric: Cotton" 
+
+      },
+      {
+        "id": "50",
+        "title": "Yellow Chimes Combo Fashion Multilayered Silver Gold Plated Chain Choker Necklace for Women and Girls",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Jewelery",
+        "type" : "Chain",
+        "description": "A Trendy Western Style Silver Plated Multilayered chain beautiful and elegant modern style latest design Choker Necklace giving a nice combination overall, which is nice to wear will go beautifully with any of your attire... Gift for Women - Ideal Valentine, Birthday, Anniversary gift for someone you ❤ LOVE ❤. With our packaging Box, you do not need to opt-in for any additional gift packaging. The product comes in a beautiful Elegant Ready-to-Gift Box. Produced under Quality Control; One by One Checking; Focus on Detail Processing. Top Quality/ Latest Trend Design/Anty-Allergy ."
+      },
+      {
+        "id": "51",
+        "title": "Yellow Chimes Classic Figaro 316L Stainless Steel Silver Chain for Men",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Jewelery",
+        "type" : "Chain",
+        "description": "Unique and Designer Classic Style Design -Everyone has its Style which can sensed from his Fashion- This Chain, Stylish yet Elegant, reflects your True Style and updated Fashion. PREMIUM QUALITY: Pure surgical stainless steel is used to make this product, which doesnt cause any harm to skin. Nickel free and Lead free as per International Standards. No harm to health. Gift for Men ! - Ideal Valentine, Birthday, Anniversary gift for someone you ? LOVE ?. With our packaging Box, you do not need to opt-in for any additional gift packaging. The product comes in a beautiful Elegant Ready-to-Gift Box."
+      },
+      {
+        "id": "52",
+        "title": "Karatcart Platinum Plated Elegant Austrian Crystal Ring for Women and Girls/Gift",
+        "price": 1200,
+        "image": "",
+        "trending": "no",
+        "category" : "Jewelery",
+        "type" : "Ring",
+        "description": "Platinum Plated Elegant Austrian Crystal Ring. Colour:- Silver. Material: Skin Friendly Metal Alloy Stone: Crystal. Size: 7"
+      },
+      {
+        "id": "53",
+        "title": "Polyester, Polyester Blend Curtains, 4 x 5, Multicolour, 1 Piece",
+        "price": 400,
+        "image": "",
+        "trending": "no",
+        "category" : "Home Improve",
+        "type" : "curtain",
+        "description": "Dry clean/ Machine Washable/ Mild liquid laundry detergent/ avoid hot water and bleach/ Warm iron as desired. Each curtain panel has 8 Vintage Eyelet Rings / grommets. Inside Diameter of each grommet is 1. 6-inch and 2. 3-inch for outside diameter. So it will accommodate up to 1. 5-inch rod."
+      },
+      {
+        "id": "54",
+        "title": "Blexos Polyester Solid Window Curtain, 5_Feet, Brown, Pack of 2",
+        "price": 500,
+        "image": "",
+        "trending": "no",
+        "category" : "Home Improve",
+        "type" : "Curtain",
+        "description" : "Material - Polyester Based Quality Fabric. Color of Product may differ due to limitation of Photography and individual monitor colour settings. Machine Washable for Easy Care. Readymade Curtains Ideal For Living Room Or Bedroom"
       }
     ]
 }

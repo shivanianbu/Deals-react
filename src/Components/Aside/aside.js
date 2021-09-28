@@ -15,14 +15,27 @@ const Aside = (props ) => {
 return unique;
 };
    const category =  getUnique(products, 'category');
+   const types =  getUnique(products, 'type');
+   
 
+   
     return (
         <div className={isDrop ? "sub-menus toggle" : "sub-menus"}>
            { category.map((product) =>
-        
-            <Link className="sub-menus-menu" to={`/${product.category}`} >{product.category}<i className="icon-dropleft"></i></Link>
-        
-     ) }
+            // <Link className="sub-menus-menu" to={`/${product.category}`} >{product.category}<i className="icon-dropleft"></i></Link>
+           <Link className="sub-menus-menu" to="#">{product.category}<i className="icon-dropleft">
+
+             <ul  className="sub-menus" >
+             { types.filter(type => type.category === product.category).map((product_type) =>
+               <li><Link to={`/${product_type.type}`}  className="sub-menus-menu">{product_type.type}</Link> </li>
+              // console.log(pro)
+             )}
+             </ul>
+             </i>
+             </Link>
+
+) }
+    
         </div>
     )
 }

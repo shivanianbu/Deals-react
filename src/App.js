@@ -1,7 +1,8 @@
 import React,{useEffect,useState} from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from "./Components/Home";
-import Product from "./Components/Product/Product";
+import Products from "./Components/Product/Product";
+import ViewProduct from "./Components/Product/View";
 import { setItem } from "./redux/Action/cartAction";
 import { PRODUCT_PATH } from './utils/env';
 import axios from "axios";
@@ -26,7 +27,8 @@ export default function App() {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact></Route>
-        <Route path="/:category" component={Product} exact></Route>
+        <Route path="/:type" component={Products} exact></Route>
+        <Route path="/view/:id" component={ViewProduct} exact></Route>
       </Switch>
     </Router >
 

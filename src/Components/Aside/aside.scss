@@ -17,6 +17,11 @@
 &-menu:hover{
     background: $background;
     cursor: pointer;
+
+}
+&-menu:hover .icon-dropleft ul{
+  display: block;
+
 }
 .icon-dropleft
 {
@@ -25,6 +30,34 @@
     padding: 5px;
     background-size:cover;
     display: inline-block;
-    height: 5px;                        
+    height: 5px;   
+    position: relative;
+    
+    ul {
+        width: 200px;
+        position: absolute;
+        top:0;
+        z-index:1000;
+        left: 100%;
+        display: none;
+    }
 }
+
+}
+
+
+@media only screen and (max-width: 1200px)
+{
+	.sub-menus-menu
+    {
+        padding: 11px;
+    }
+} 
+@media only screen and (max-width: 992px)
+{
+    .sub-menus-menu
+    {
+        padding: 9px;
+        font-size: 13px;
+    }
 }
