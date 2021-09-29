@@ -22,7 +22,7 @@ const CartItems = ({item,removeFromCart,adjustQty}) => {
                     <div className="cart-item">
                         <img src={`${BASE_PATH}/${item.image}`} />
                         <div>
-                            <h6 className="title">{item.price}</h6>
+                            <h6 className="title">$ {item.price}</h6>
                             <span className="remove-item" 
                             onClick={() => removeFromCart(item.id)}
                             >Remove</span>
@@ -32,9 +32,7 @@ const CartItems = ({item,removeFromCart,adjustQty}) => {
                 <td className= "td">
                 <input min="1" type="number" id="qty"name="qty" className="input" value={input} onChange={onChangeHandler}/>                 
                  </td>
-
-                <td className= "td">${itemPrice(item.price, item.qty)}</td>
-               
+                <td className= "td">${itemPrice(item.price, item.qty)}</td> 
             </tr>
    </>
 

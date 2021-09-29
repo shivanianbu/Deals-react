@@ -1,7 +1,7 @@
 import "./trendings.scss";
 import React from "react";
 import Product from "./Product";
-import { connect,useDispatch,} from "react-redux";
+import { connect} from "react-redux";
 
 
 const Trendings = ({products}) => {

@@ -1,14 +1,24 @@
-import React,{useEffect} from 'react'
+  import React from 'react'
 import { connect } from "react-redux";
-import { Link } from 'react-router-dom';
+import { addToCart } from "../../redux/Action/cartAction";
+import { Link , useHistory} from 'react-router-dom';
 import { BASE_PATH } from '../../utils/env';
-import "./product.scss"
+import "./product.scss";
+import { useDispatch} from "react-redux";  
 
 const Product = (props) => {
   
     const {products} = props;
     const type  = props.match.params.type;
-   
+    let history = useHistory();
+ const dispatch = useDispatch();
+
+    const addCart = async(id) => {
+      dispatch(addToCart(id));
+      alert("Do you want to add Item ?");
+      history.push('/');
+  }
+
     return (
         <div className="container">
           <div className="offer-content">
@@ -25,7 +35,7 @@ const Product = (props) => {
                   <h6 className="topic">${product.price}</h6>
                 </div>
                 <div className="product-btn">
-                <Link className="cart-btn">Add to Cart</Link>
+                <button className="cart-btn"  onClick={() => addCart(product.id)}>Add to Cart</button>
                 <Link to={`view/${product.id}`} className="view-btn">View Detail</Link>
                   </div>
             </div>
@@ -41,5 +51,6 @@ const mapStateToProps = (state) => {
      
     };
   };
+ 
   export default connect(mapStateToProps)(Product);
 

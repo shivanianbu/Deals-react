@@ -1,11 +1,11 @@
-import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 import Header from './Header/Header';
 import Banner from "./Banner/Banner";
 import Women from './WomenCosmetics/Womencosmetics';
 import Trendings from './Trendings/Trendings';
 import Shopbox from './Shopbox/Shopbox';
 import Fashion from './Fashion/Fashion';
-import Search from './Search/Search';
+import Subscribe from './Search/Search';
 import Footer from './Footer/Footer';
 
 
@@ -61,7 +61,7 @@ const Home = () => {
     <Shopbox /> 
     <Fashion fashion={menFashion}/>
     <Fashion fashion={womenFashion}/>
-    <Search />
+    <Subscribe />
     <Footer />
         </>
     )

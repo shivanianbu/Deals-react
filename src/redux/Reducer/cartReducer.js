@@ -16,7 +16,7 @@ switch(action.type)
         const item = state.products.find(
             (product) => product.id === action.payload.id
           );
-          // Check if Item is in cart already
+         
           const inCart = state.cart.find((item) =>
             item.id === action.payload.id ? true : false
           );
@@ -24,15 +24,13 @@ switch(action.type)
           return {
             ...state,
             cart: inCart
-              ? state.cart.map((item) =>
-                  item.id === action.payload.id
+              ? state.cart.map((item) => item.id === action.payload.id
                     ? { ...item, qty: item.qty + 1 }
-                    : item
+                    :{ item }
                 )
-              : [...state.cart, { ...item, qty: 1 }]
-            
-          };
- 
+              : [...state.cart, { ...item, qty: 1 } ]
+          }; 
+          
     case actionTypes.REMOVE_FROM_CART:
       return {
         ...state,

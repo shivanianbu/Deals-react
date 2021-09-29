@@ -19,17 +19,17 @@ const Product = ({ product, addToCart }) => {
               </div>
               <div className="product-cart">
                 <Link className="search-cart"></Link>
-                <Link className="bag-btn"><i className="icon-shoppingcart"  onClick={() => addToCart(product.id)} ></i></Link>
+                <Link className="bag-btn" to="#"><i className="icon-shoppingcart"  onClick={() => addToCart(product.id)} ></i></Link>
                 <Link className="analytics"></Link>
               </div>
             </article>
           )
       
 }
-const mapDispacthToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch) => {
   return {
     addToCart: (id) => dispatch(addToCart(id)),
   };
 };
 
-export default connect(null, mapDispacthToProps)(Product);
+export default connect(null, mapDispatchToProps)(Product);
